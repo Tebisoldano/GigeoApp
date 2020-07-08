@@ -1,0 +1,151 @@
+.main__yuki{
+width: 100%;
+padding-top: 1rem;
+background-color: white;
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+}
+
+.main__yuki-buttons{
+  display: flex;
+  justify-content: center;
+  margin-right: 10.5rem;
+  align-items: center;
+}
+
+.main__yuki-name{
+  margin-left: 15px;
+}
+
+.main__yuki-namecomplete{
+  font-size: $xx-large;
+  font-family: $raleway;
+  font-weight: $bold;
+  margin-bottom: 0px;
+  color: $smokyblack;
+}
+
+.main__yuki-followers{
+  font-size: $large;
+  margin-top: 0px;
+  font-family: $sanse;
+  font-weight: $regular;
+  color: $grey;
+
+}
+
+
+.main__yuki-datos{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: 10.5rem;
+  align-items: center;
+}
+
+.main__yuki-foto{
+  width: 80px;
+height: 80px;
+border-radius: 40px;
+}
+
+@media (max-width: 768px) {
+  .main__yuki-buttons{
+    display: none;
+  }
+  .main__yuki{
+  justify-content: center;
+  }
+  .main__yuki-datos{
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;}
+
+  hr{ display: none;}
+
+  .main__yuki-name{
+    margin-left: 5px;
+  }
+}
+
+.main__videos-titulo{
+  margin-left: 10.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.main__titulo-texto{
+  color: $smokyblack;
+  font-family: $raleway;
+  font-size: $xx-large;
+  font-weight: $regular;
+}
+
+
+.main__videos-contenido{
+  display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      margin: auto;
+
+}
+
+.main__videos-row{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.main__video-card{
+  width: 350px;
+  margin: 25px;
+  flex-grow: 1;
+  justify-content: center;
+
+}
+
+.main__video-image{
+  width: 100%;
+  height: 200px;
+}
+
+.main__subtitulo{
+  font-family: $raleway;
+  font-weight: $bold;
+  font-size: $x-large;
+  color: $smokyblack;
+}
+
+.main__subsubtitulo{
+  font-family: $sanse;
+  color: $darkgrey;
+  font-size: $medium;
+  font-weight: $regular;
+
+}
+#seleccion{
+  border: 3px solid grey;
+}
+
+
+@media (max-width: 768px) {
+  .main__videos-row{
+    display: flex;
+    flex-direction: column;
+}
+
+    .main__video-card{
+      width: 300px;
+      margin: 0px 5px;
+    }
+
+    .main__videos-titulo{
+      margin-left: 0rem;
+      text-align: center;
+    }
+
+
+}
